@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="PortalDatos.Api/PortalDatos.Api.csproj" />
+  <Project Path="PortalDatos.Application/PortalDatos.Application.csproj" />
+  <Project Path="PortalDatos.Domain/PortalDatos.Domain.csproj" />
+  <Project Path="PortalDatos.Infrastructure/PortalDatos.Infrastructure.csproj" />
+  <Project Path="PortalDatos.Worker/PortalDatos.Worker.csproj" />
+</Solution>

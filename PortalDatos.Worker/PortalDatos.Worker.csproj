@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-PortalDatos.Worker-64e7d0ae-96b6-415b-8a5a-5a79c79791a1</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="10.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PortalDatos.Application\PortalDatos.Application.csproj" />
+    <ProjectReference Include="..\PortalDatos.Infrastructure\PortalDatos.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
