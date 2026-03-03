@@ -14,7 +14,6 @@ namespace PortalDatos.Infrastructure.Processors
         public async Task<IEnumerable<PagoBoletaDigital>> ProcessFileAsync(string filePath)
         {
             // Todo dentro de un Task para mantener asincronica de la interfaz
-            // TODO: Buscar sobre este tema
             return await Task.Run(() =>
             {
                 using var stream = File.OpenRead(filePath);
