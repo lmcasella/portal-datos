@@ -46,14 +46,49 @@ Ejecutar los scripts SQL proporcionados en la carpeta `/database` para crear las
 
 Navegar a la carpeta del proyecto API y configurar el `appsettings.json` con la cadena de conexión local y la clave JWT.
 
-cd PortalDatos.Api  
-dotnet build  
+```bash
+cd PortalDatos.Api
+dotnet build
 dotnet run
+```
 
 ### 3. Frontend (React)
 
 En una terminal separada, navegar a la carpeta del frontend, instalar las dependencias y levantar el servidor de desarrollo.
 
-cd portal-frontend  
-npm install  
+```bash
+cd portal-frontend
+npm install
 npm run dev
+```
+
+### 4. Simulación del Worker (Procesamiento de Lotes)
+
+El sistema incluye un `Background Worker` independiente que monitorea y procesa archivos de pagos en segundo plano. Para que el procesamiento de los lotes funcione, **es obligatorio mantener este servicio en ejecución**.
+
+**Pasos para probarlo localmente:**
+
+1. Asegurate de crear la siguiente estructura de carpetas en tu disco C:
+    - `C:\BoletasDigitales\Input` (Directorio de lectura)
+    - `C:\BoletasDigitales\Processed` (Archivos procesados con éxito)
+    - `C:\BoletasDigitales\Failed` (Archivos con errores de formato)
+
+2. Abrí una nueva terminal en la raíz de la solución, navegá al proyecto del Worker y ejecutalo:
+
+    ```bash
+    cd PortalDatos.Worker
+    dotnet build
+    dotnet run
+    ```
+
+3. Mientras el Worker está escuchando, andá a la carpeta Input y creá un archivo de texto (ej. lote_pagos.txt). El archivo debe contener la siguiente cabecera y estructura de datos:
+
+    ```bash
+    NumeroBoleta, MontoCobrado, FechaCobro
+    1, 13000.00, 2/3/2026
+    12345, 5000.50, 15/3/2026
+    ```
+
+4. El Worker detectará el archivo rapidamente. Procesará cada línea insertándola en la tabla PagosBoletaDigital de SQL Server y, al finalizar, moverá el archivo a la carpeta Processed (o a Failed si hay un error de parseo).
+
+5. Desde el Dashboard en React, actualizá la página para ver los nuevos pagos reflejados y cruzados con el padrón de forma inmediata.

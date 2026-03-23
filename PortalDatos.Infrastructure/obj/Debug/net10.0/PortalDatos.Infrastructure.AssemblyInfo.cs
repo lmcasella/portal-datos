@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PortalDatos.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ee4bac88ea7dc839b67e24116e7e8e8740f8b2bd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2eac89564be406d9ca5b3fa97413fafb37166981")]
 [assembly: System.Reflection.AssemblyProductAttribute("PortalDatos.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PortalDatos.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
