@@ -54,6 +54,6 @@ dotnet run
 
 En una terminal separada, navegar a la carpeta del frontend, instalar las dependencias y levantar el servidor de desarrollo.
 
-cd portal-frontend
-npm install
+cd portal-frontend  
+npm install  
 npm run dev
