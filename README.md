@@ -46,8 +46,8 @@ Ejecutar los scripts SQL proporcionados en la carpeta `/database` para crear las
 
 Navegar a la carpeta del proyecto API y configurar el `appsettings.json` con la cadena de conexión local y la clave JWT.
 
-cd PortalDatos.Api
-dotnet build
+cd PortalDatos.Api  
+dotnet build  
 dotnet run
 
 ### 3. Frontend (React)
