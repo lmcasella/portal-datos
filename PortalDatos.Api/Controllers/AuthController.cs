@@ -7,6 +7,7 @@ using System.Text;
 using PortalDatos.Domain.Interfaces;
 using PortalDatos.Domain.Entities;
 using BCrypt.Net;
+using PortalDatos.Domain.DTOs;
 
 namespace PortalDatos.Api.Controllers
 {
@@ -31,8 +32,14 @@ namespace PortalDatos.Api.Controllers
 
         // Endpoint para crear un usuario de prueba encriptado
         [HttpPost("registrar")]
-        public async Task<IActionResult> Registrar([FromBody] AuthRequestDto request)
+        public async Task<IActionResult> Registrar([FromBody] RegistroRequest request)
         {
+            var usuarioExistente = await _usuarioRepo.ObtenerPorUsernameAsync(request.Username);
+            if (usuarioExistente != null)
+            {
+                return BadRequest(new { mensaje = "El nombre de usuario ya está en uso." });
+            }
+
             var hash = BCrypt.Net.BCrypt.HashPassword(request.Password);
             await _usuarioRepo.CrearUsuarioAsync(new Usuario { Username = request.Username, PasswordHash = hash });
             return Ok("Usuario creado.");

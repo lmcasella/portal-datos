@@ -8,23 +8,23 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\lauch\\.nuget\\packages\\": {},
+    "C:\\Users\\lcasella\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lauch\\Documents\\Informatica\\proyectos\\portal-datos\\PortalDatos.Domain\\PortalDatos.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\lcasella\\Documents\\Proyectos local\\lmcasella\\portal-datos\\PortalDatos.Domain\\PortalDatos.Domain.csproj",
       "projectName": "PortalDatos.Domain",
-      "projectPath": "C:\\Users\\lauch\\Documents\\Informatica\\proyectos\\portal-datos\\PortalDatos.Domain\\PortalDatos.Domain.csproj",
-      "packagesPath": "C:\\Users\\lauch\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lauch\\Documents\\Informatica\\proyectos\\portal-datos\\PortalDatos.Domain\\obj\\",
+      "projectPath": "C:\\Users\\lcasella\\Documents\\Proyectos local\\lmcasella\\portal-datos\\PortalDatos.Domain\\PortalDatos.Domain.csproj",
+      "packagesPath": "C:\\Users\\lcasella\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\lcasella\\Documents\\Proyectos local\\lmcasella\\portal-datos\\PortalDatos.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\lauch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\lcasella\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -51,7 +51,7 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.200"
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net10.0": {
@@ -72,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.104/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

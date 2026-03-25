@@ -6,7 +6,7 @@ using PortalDatos.Worker;
 
 var builder = Host.CreateApplicationBuilder(args);
 
-string connectionString = "Data Source=LMCASELLA;Initial Catalog=Test;Integrated Security=True;TrustServerCertificate=True;";
+string connectionString = "Data Source=.\\LCASELLA;Initial Catalog=Test;Integrated Security=True;TrustServerCertificate=True;";
 builder.Services.AddTransient<IPagoRepository>(sp => new PagoRepository(connectionString));
 
 // Registrar Factory

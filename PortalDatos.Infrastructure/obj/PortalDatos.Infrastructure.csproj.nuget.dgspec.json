@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lauch\\Documents\\Informatica\\proyectos\\portal-datos\\PortalDatos.Infrastructure\\PortalDatos.Infrastructure.csproj": {}
+    "C:\\Users\\lcasella\\Documents\\Proyectos local\\lmcasella\\portal-datos\\PortalDatos.Infrastructure\\PortalDatos.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lauch\\Documents\\Informatica\\proyectos\\portal-datos\\PortalDatos.Application\\PortalDatos.Application.csproj": {
+    "C:\\Users\\lcasella\\Documents\\Proyectos local\\lmcasella\\portal-datos\\PortalDatos.Application\\PortalDatos.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lauch\\Documents\\Informatica\\proyectos\\portal-datos\\PortalDatos.Application\\PortalDatos.Application.csproj",
+        "projectUniqueName": "C:\\Users\\lcasella\\Documents\\Proyectos local\\lmcasella\\portal-datos\\PortalDatos.Application\\PortalDatos.Application.csproj",
         "projectName": "PortalDatos.Application",
-        "projectPath": "C:\\Users\\lauch\\Documents\\Informatica\\proyectos\\portal-datos\\PortalDatos.Application\\PortalDatos.Application.csproj",
-        "packagesPath": "C:\\Users\\lauch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lauch\\Documents\\Informatica\\proyectos\\portal-datos\\PortalDatos.Application\\obj\\",
+        "projectPath": "C:\\Users\\lcasella\\Documents\\Proyectos local\\lmcasella\\portal-datos\\PortalDatos.Application\\PortalDatos.Application.csproj",
+        "packagesPath": "C:\\Users\\lcasella\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lcasella\\Documents\\Proyectos local\\lmcasella\\portal-datos\\PortalDatos.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\lauch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lcasella\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\lauch\\Documents\\Informatica\\proyectos\\portal-datos\\PortalDatos.Domain\\PortalDatos.Domain.csproj": {
-                "projectPath": "C:\\Users\\lauch\\Documents\\Informatica\\proyectos\\portal-datos\\PortalDatos.Domain\\PortalDatos.Domain.csproj"
+              "C:\\Users\\lcasella\\Documents\\Proyectos local\\lmcasella\\portal-datos\\PortalDatos.Domain\\PortalDatos.Domain.csproj": {
+                "projectPath": "C:\\Users\\lcasella\\Documents\\Proyectos local\\lmcasella\\portal-datos\\PortalDatos.Domain\\PortalDatos.Domain.csproj"
               }
             }
           }
@@ -48,7 +48,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net10.0": {
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.104/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -347,20 +347,20 @@
         }
       }
     },
-    "C:\\Users\\lauch\\Documents\\Informatica\\proyectos\\portal-datos\\PortalDatos.Domain\\PortalDatos.Domain.csproj": {
+    "C:\\Users\\lcasella\\Documents\\Proyectos local\\lmcasella\\portal-datos\\PortalDatos.Domain\\PortalDatos.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lauch\\Documents\\Informatica\\proyectos\\portal-datos\\PortalDatos.Domain\\PortalDatos.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\lcasella\\Documents\\Proyectos local\\lmcasella\\portal-datos\\PortalDatos.Domain\\PortalDatos.Domain.csproj",
         "projectName": "PortalDatos.Domain",
-        "projectPath": "C:\\Users\\lauch\\Documents\\Informatica\\proyectos\\portal-datos\\PortalDatos.Domain\\PortalDatos.Domain.csproj",
-        "packagesPath": "C:\\Users\\lauch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lauch\\Documents\\Informatica\\proyectos\\portal-datos\\PortalDatos.Domain\\obj\\",
+        "projectPath": "C:\\Users\\lcasella\\Documents\\Proyectos local\\lmcasella\\portal-datos\\PortalDatos.Domain\\PortalDatos.Domain.csproj",
+        "packagesPath": "C:\\Users\\lcasella\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lcasella\\Documents\\Proyectos local\\lmcasella\\portal-datos\\PortalDatos.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\lauch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lcasella\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -387,7 +387,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net10.0": {
@@ -408,7 +408,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.104/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -686,20 +686,20 @@
         }
       }
     },
-    "C:\\Users\\lauch\\Documents\\Informatica\\proyectos\\portal-datos\\PortalDatos.Infrastructure\\PortalDatos.Infrastructure.csproj": {
+    "C:\\Users\\lcasella\\Documents\\Proyectos local\\lmcasella\\portal-datos\\PortalDatos.Infrastructure\\PortalDatos.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lauch\\Documents\\Informatica\\proyectos\\portal-datos\\PortalDatos.Infrastructure\\PortalDatos.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\lcasella\\Documents\\Proyectos local\\lmcasella\\portal-datos\\PortalDatos.Infrastructure\\PortalDatos.Infrastructure.csproj",
         "projectName": "PortalDatos.Infrastructure",
-        "projectPath": "C:\\Users\\lauch\\Documents\\Informatica\\proyectos\\portal-datos\\PortalDatos.Infrastructure\\PortalDatos.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\lauch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lauch\\Documents\\Informatica\\proyectos\\portal-datos\\PortalDatos.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\lcasella\\Documents\\Proyectos local\\lmcasella\\portal-datos\\PortalDatos.Infrastructure\\PortalDatos.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\lcasella\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lcasella\\Documents\\Proyectos local\\lmcasella\\portal-datos\\PortalDatos.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\lauch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lcasella\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -714,8 +714,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\lauch\\Documents\\Informatica\\proyectos\\portal-datos\\PortalDatos.Application\\PortalDatos.Application.csproj": {
-                "projectPath": "C:\\Users\\lauch\\Documents\\Informatica\\proyectos\\portal-datos\\PortalDatos.Application\\PortalDatos.Application.csproj"
+              "C:\\Users\\lcasella\\Documents\\Proyectos local\\lmcasella\\portal-datos\\PortalDatos.Application\\PortalDatos.Application.csproj": {
+                "projectPath": "C:\\Users\\lcasella\\Documents\\Proyectos local\\lmcasella\\portal-datos\\PortalDatos.Application\\PortalDatos.Application.csproj"
               }
             }
           }
@@ -730,7 +730,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.200"
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net10.0": {
@@ -765,7 +765,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.104/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

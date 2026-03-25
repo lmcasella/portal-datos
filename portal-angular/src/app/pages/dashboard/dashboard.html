@@ -1,34 +1,34 @@
-<div class="max-w-5xl mx-auto mt-10 p-6 bg-white rounded-lg shadow-md">
-  <div class="flex justify-between items-center border-b pb-4 mb-6">
-    <h2 class="text-2xl font-bold text-gray-800">Reporte de Pagos</h2>
+<div class="max-w-5xl mx-auto mt-10 p-6 bg-gray-800 rounded-lg shadow-xl border border-gray-700">
+  <div class="flex justify-between items-center border-b border-gray-700 pb-4 mb-6">
+    <h2 class="text-2xl font-bold text-gray-100">Reporte de Pagos</h2>
     <button
       (click)="cerrarSesion()"
-      class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded transition-colors font-medium"
+      class="bg-red-600 hover:bg-red-500 text-white px-4 py-2 rounded transition-colors font-medium shadow"
     >
       Cerrar Sesión
     </button>
   </div>
 
-  <p *ngIf="errorMessage" class="text-red-600 mb-4">{{ errorMessage }}</p>
+  <p *ngIf="errorMessage" class="text-red-400 mb-4">{{ errorMessage }}</p>
 
-  <div class="overflow-x-auto">
+  <div class="overflow-x-auto rounded-lg border border-gray-700">
     <table class="w-full text-left border-collapse">
       <thead>
-        <tr class="bg-gray-100 text-gray-600 uppercase text-sm leading-normal">
-          <th class="py-3 px-6 border-b">Nº Boleta</th>
-          <th class="py-3 px-6 border-b">Contribuyente</th>
-          <th class="py-3 px-6 border-b">Monto</th>
-          <th class="py-3 px-6 border-b">Fecha Cobro</th>
+        <tr class="bg-gray-900 text-gray-400 uppercase text-sm leading-normal">
+          <th class="py-3 px-6 border-b border-gray-700">Nº Boleta</th>
+          <th class="py-3 px-6 border-b border-gray-700">Contribuyente</th>
+          <th class="py-3 px-6 border-b border-gray-700">Monto</th>
+          <th class="py-3 px-6 border-b border-gray-700">Fecha Cobro</th>
         </tr>
       </thead>
-      <tbody class="text-gray-700 text-sm font-light">
+      <tbody class="text-gray-300 text-sm font-light">
         <tr
           *ngFor="let pago of pagos"
-          class="border-b border-gray-200 hover:bg-gray-50 transition-colors"
+          class="border-b border-gray-700 hover:bg-gray-750 transition-colors"
         >
           <td class="py-3 px-6">{{ pago.numeroBoleta }}</td>
-          <td class="py-3 px-6 font-medium">{{ pago.nombreCompleto }}</td>
-          <td class="py-3 px-6">${{ pago.montoCobrado }}</td>
+          <td class="py-3 px-6 font-medium text-gray-200">{{ pago.nombreCompleto }}</td>
+          <td class="py-3 px-6 text-green-400 font-medium">${{ pago.montoCobrado }}</td>
           <td class="py-3 px-6">{{ pago.fechaCobro | date: 'dd/MM/yyyy' }}</td>
         </tr>
       </tbody>

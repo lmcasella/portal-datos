@@ -20,6 +20,10 @@ export class Auth {
   public token$ = this.tokenSubject.asObservable();
 
   // 3. Peticion HTTP
+  registrar(credentials: any): Observable<any> {
+    return this.http.post(`${this.apiUrl}/registrar`, credentials);
+  }
+
   // Devuelve un Observable
   login(credentials: any): Observable<any> {
     return this.http.post(`${this.apiUrl}/login`, credentials).pipe(
