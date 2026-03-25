@@ -16,11 +16,14 @@ builder.Services.AddControllers();
 
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("PermitirReact", policy =>
+    options.AddPolicy("PermitirFrontends", policy =>
     {
-        policy.WithOrigins("http://localhost:5173") // Puerto del front
-              .AllowAnyHeader()  // Permite que React mande el Token JWT en el header
-              .AllowAnyMethod(); // Permite GET, POST, PUT, DELETE, etc.
+        policy.WithOrigins(
+                "http://localhost:5173", // React
+                "http://localhost:4200" // Angular
+            )
+            .AllowAnyHeader()  // Permite que React mande el Token JWT en el header
+            .AllowAnyMethod(); // Permite GET, POST, PUT, DELETE, etc.
     });
 });
 
@@ -40,7 +43,7 @@ var app = builder.Build();
 
 app.UseHttpsRedirection();
 
-app.UseCors("PermitirReact");
+app.UseCors("PermitirFrontends");
 
 app.UseAuthentication();
 app.UseAuthorization();
